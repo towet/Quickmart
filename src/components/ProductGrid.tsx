@@ -1024,6 +1024,14 @@ export default function ProductGrid() {
           </div>
         </div>
 
+        <div className="mb-16">
+          <img 
+            src="https://cdn.quickmart.co.ke/resized/2000_500/2024_07_1722154512-TopBannerArtwork1024x36002png"
+            alt="Top Banner"
+            className="w-full h-auto rounded-xl object-cover"
+          />
+        </div>
+
         {renderWeeklyDeals()}
         {renderProductSection('Featured Products', products.filter(p => p.featured))}
         {renderProductSection('Top Deals', products.filter(p => p.discount > 0))}
